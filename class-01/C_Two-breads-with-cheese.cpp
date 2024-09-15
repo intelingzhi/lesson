@@ -2,7 +2,7 @@
 
 #define SIZE 100
 
-//思路：取数组1的最大值，数组2的最小值，计算两者之间的数字个数。
+// 思路：取数组1的最大值，数组2的最小值，计算两者之间的数字个数。
 
 int main()
 {
@@ -40,7 +40,11 @@ int main()
         }
     }
 
-    int x = min - max + 1;
+    int x = 0;
+    if (max < min)
+    {
+        x = min - max + 1;
+    }
 
     printf("%d\n", x);
 

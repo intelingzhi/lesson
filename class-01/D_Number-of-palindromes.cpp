@@ -50,11 +50,11 @@ int main()
     // 判断
     if (charge(str))
     {
-        printf("yes\n"); 
+        printf("Yes\n"); 
     }
     else
     {
-        printf("no\n"); // 不是回文
+        printf("No\n"); // 不是回文
     }
 
     return 0;
