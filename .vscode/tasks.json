@@ -41,7 +41,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "编译器: C:\\software\\mingw64\\bin\\gcc.exe"
+            "detail": "编译器: C:\\software\\mingw64\\bin\\g++.exe"
         }
     ],
     "version": "2.0.0"
